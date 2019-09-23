@@ -18,18 +18,11 @@
 
 <style>
 
-body {
 
-	/* background-image: url('grunge_patterns.jpg');
-	background-attachment: fixed;*/
-	background-color: #fff;
-	
-	
-}
 
-.box {
+/*.box {
 	border-radius: 3px;
-	/* background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;*/
+	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
 }
 
 .lightbox {
@@ -42,6 +35,39 @@ body {
 	text-align: center;
 	margin: auto;
 
+}*/
+
+.button {
+
+	font-family: "Poppins", "Helvatica", "Arial", sans-serif;
+    font-size: 0.7rem;
+    color: #232323;
+    text-transform: uppercase;
+    /*margin-left: 1rem*/;
+    letter-spacing: 0.2rem;
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 1rem;
+    text-decoration: none;
+
+
+}
+
+button.button:hover {
+  color: #fff;
+  background-color: #e61c8c;
+  border-color: #e61c8c;
+
+
+}
+
+.index-text {
+  font-family: "Poppins", "Helvatica", "Arial", sans-serif;
+  font-size: 1rem;
+  color: #232323;
+  /*margin-top: 7rem;*/
+  padding-bottom: 1rem; 
+  margin-left: -10rem;
 }
 
 div.horizontal {
@@ -81,7 +107,16 @@ div.vertical {
 	<div id="loginbox" >
 		<div class="horizontal">
 			<div class="vertical">
-	
+
+				<div class="container-fluid">
+			        <!-- <canvas class="margin-none send-to-back"></canvas> -->
+			        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			            <div class="navbar-header">
+			              <a class="navbar-brand" href="">YIFEI <span class="hightlight">LIU</span></a>
+			            </div>
+			            
+			        </div>
+				</div>
 
 				<div class="top-container">
 		            <!-- <div class="margin-none"> -->
@@ -93,13 +128,15 @@ div.vertical {
 		                    </div>
 		                    <div class="col-xs-5">
 		                        <p class="blurb"> Interaction Designer</p>
-		                        <p class="blurb-subtitle"> With industry experience in visual design, multimedia storytelling, and prototyping.</p>
+		                        <div class="index-text">
+			                        <p> With industry experience in visual design, multimedia storytelling, and prototyping.</p>
 
-		                        <div>
-									<input  id="password" type="password" placeholder="password" /> <br />
-									<button id="loginbutton" type="button">Enter</button>
+									<p> <input  id="password" type="password" placeholder="password"  class="button"/> 
+									<button id="loginbutton" type="button" class="button">Enter</button>
+									<p> 
 									<p id="wrongPassword" style="display: none">wrong password</p>
 								</div>
+							
 
 		                    </div>
 

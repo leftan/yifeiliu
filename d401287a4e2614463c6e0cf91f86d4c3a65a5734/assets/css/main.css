@@ -990,6 +990,11 @@ p.info-box-title{
  height: 500px;
 }
 
+
+.top-container-100px {
+ height: 100px;
+}
+
 .home-feature {
   margin-bottom: 10rem;
 }
@@ -1077,7 +1082,7 @@ p.info-box-title{
   margin-left: 1rem;
 }
 
-a.home-feature-link{
+a.home-feature-link {
     font-family: "Poppins", "Helvatica", "Arial", sans-serif;
     font-size: 0.7rem;
     color: #232323;
