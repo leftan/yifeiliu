@@ -148,7 +148,7 @@ body{
   /*font-family: 'Crimson Text', sans-serif;*/
   font-family: 'Poppins', helvatica, sans-serif;
   font-style:normal;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -472,6 +472,13 @@ blockquote span {
 .bg-pet-1 {
   background-color: #FFD600;
   color: black;
+
+}
+
+
+.bg-blue-1 {
+  background-color: #0AA0D9;
+  color: white;
 
 }
 
