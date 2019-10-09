@@ -482,6 +482,13 @@ blockquote span {
 
 }
 
+
+.bg-orange-1 {
+  background-color: #FF7946;
+  color: white;
+
+}
+
 .margin-padding-2rem {
   padding: 2rem;
   margin: 2rem;
@@ -573,6 +580,12 @@ blockquote span {
 
 .divider-black {
   border-top: 1px solid black;
+}
+
+.decorated-img {
+    position: absolute;
+    max-width: 30%;
+    z-index: -100;
 }
 
 .text-bottom {
