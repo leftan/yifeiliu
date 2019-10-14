@@ -1162,6 +1162,12 @@ hr {
     text-align: left;
   }
 
+  .home-feature .text-left-70 {
+    left: -80%;
+    width: 78%;
+    text-align: left;
+  }
+
   .home-feature .text-right-50 {
     right: -50%;
     width: 50%;
